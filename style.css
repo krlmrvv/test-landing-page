@@ -9,6 +9,15 @@ header {
   padding: 40px 20px;
 }
 
+
+footer{
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -54,6 +63,16 @@ button {
   background-color: #3882f6;
   color: white;
   border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#cta-button{
+  width: 100px;
+  background-color: #3882f6;
+  color: white;
+  border: solid 3px white;
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: bold;
@@ -122,4 +141,40 @@ justify-content: space-around
   font-size: 18px;
 margin-right: 35%;
 text-align: right;
+}
+
+.CTA {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  background-color: #3882f6;
+  border: 4px solid #1b59bd;
+  border-radius: 10px;
+}
+
+.CTA {
+  flex-direction: column;
+  color: white;
+}
+
+#cta-txt{
+margin-top: 70px;
+margin-left: 70px;
+font-weight: 900;
+}
+#cta-subtxt{
+  margin-left: 70px;
+}
+
+#cta-button{
+  margin-left: 500px;
+  justify-self: baseline;
+}
+
+.copy {
+  display: flex;
+  background-color: #1f2937;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
 }
